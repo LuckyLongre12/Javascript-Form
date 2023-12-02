@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+    <script src="https://kit.fontawesome.com/22cfd4c9fb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <nav>
+    <ul>
+ <li><a href="#" onclick="home()">LuckyCode</a></li>
+ <li><a href="#"><i id="icon1" onclick="hide()" class="fa fa-bars"></i>
+</span></a></li>
+    </ul>
+</nav>    
+<nav class="nav2">
+    <ul class="second-nav">
+        <li class="qwe"><a href="#"><i onclick="close1()" class="fa-solid fa-xmark"></i></a></li>
+        <li><a onclick="home()" href="#">Home</a></li>
+        <li><a onclick="QR()" href="#">QR Code</a></li>
+        <li><a onclick="log()" href="#">Send OTP</a></li>
+    </ul>
+</nav> 
+    <div class="container">
+        <div class="card">
+            <div class="card-info">
+                <h1>Login Your Email ID</h1>
+            </div>
+          <input class="input" type="Number" placeholder="Enter Your Phone Number">
+          <input class="input" id="password" type="password" placeholder="Enter Your Create Password">
+                <input type="checkbox" id="showPassword" value="show"><b>Show</b>
+       <button id="nxt"> Send OTP </button>  
+       
+                 <div class="custom">
+                      
+      <input class="otp-box" type="number">
+      <input class="otp-box" type="number">
+      <input class="otp-box" type="number">
+      <input class="otp-box" type="number">
+      <input class="otp-box" type="number">
+      <input class="otp-box" type="number">
+                    </div>
+                </div>                                
+          <button id="submit">Submit</button>
+        
+        </div>
+        
+    </div>
+    <div class="card2">
+        
+        <img id="img" src="QRcode.png" alt=""></img>
+        <h4>Scan QR and Pay Your Fee </h4>
+        <button id="show-btn">Show QR</button>
+        <button id="login">Login</button>
+    </div>
+    
+<div class="card3-col">    
+    <div id="card3">
+        <h1 class="last-txt">Thankyou For Visit );</h1><br><br>
+        <button type="reset" class="last-btn">HOME</button>
+    </div>
+ </div>
+
+
+
+<div class="OTP-BOX">   
+        <div class="col">
+            <span id="text-1">0</span>
+        </div>
+        <div class="col">
+            <span id="text-2">0</span>
+        </div>
+        <div class="col">
+            <span id="text-3">0</span>
+        </div>
+        <div class="col">
+            <span id="text-4">0</span>
+        </div>
+        <div class="col">
+            <span id="text-5">0</span>
+        </div>
+        <div class="col">
+            <span id="text-6">0</span>         
+        </div>
+</div>
+    <button id="close">X</button>
+    
+    
+</div>
+</form>
+<script src="script.js"></script>
+</body>
+</html>

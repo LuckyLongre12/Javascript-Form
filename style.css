@@ -1,0 +1,273 @@
+
+*{
+    margin: 0;
+    box-sizing: padding-box;
+}
+body {
+    background: black;
+}
+nav{
+    background-color: #00c4d68a;
+    width: 100%;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    height: 70px;
+}
+li{
+    display: flex;
+    align-items: center;
+}
+li:hover{
+     background-color: #2a2e2a10; 
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+li:first-child{
+    margin-right: auto;
+}
+
+
+.second-nav{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    right: -1000px;   
+    background: #00c4d68a;
+    height: 400px;
+    transition: 0.3s;
+    z-index: 1;
+}
+
+.second-nav li{
+    display: flex;
+    margin: 20px; 
+}
+a{
+    font-size: 3rem;
+}
+.qwe:first-child{
+    margin-left: -20px;
+}
+/* @media(max-width:800px){
+    .a1{
+        display: none;
+    }
+    #icon1{
+        opacity: 1;
+    }
+} */
+
+
+
+
+
+
+
+
+
+    .container{
+        width: 800px;
+        height: 800px;
+        display: flex;
+        justify-content: center;        
+        background: #7d2ae8;
+        align-items: center;
+        border-radius: 12px;
+        margin-left: 6rem;
+        margin-top: 10rem;
+    }
+    .card{
+        width: 400px;
+        height: 450px;
+        background: white;   
+        border-radius: 20px; 
+        padding: 10px; 
+    }
+    .card-info{     
+        border-radius: 40px;
+    }
+    .input{
+        margin-left: 20px;
+        border-radius: 32px;
+        border-color: red;
+        width: 360px;
+        margin-top: 2.2rem;
+        outline: none;
+        font-size: 30px;
+        color: white;
+        background: black;
+        margin-bottom: 5px;
+        text-align: center;
+        height: 2rem;
+        border-width: 5px;
+        
+    }
+    h1{
+        font-size: 2.2rem;
+        text-align: center;
+        font-weight: bolder;
+        color: green;
+    }
+    ::placeholder{
+        font-size: 20px;
+        text-align: center;
+        color: #aeb300a6;
+    }
+    button{
+        border-radius: 7px;
+        outline: none;
+        font-size: 30px;
+        color: white;
+        background:#7d2ae8 ;
+        margin-left: 100px;
+       
+    }
+    img{
+        width: 200px;
+        height: 200px;
+        margin-left: 100px;
+        filter: blur(8px);
+        margin-top: 20px;
+    }
+    .card2{
+        width: 400px;
+        height: 400px;
+        background: white;   
+        border-radius: 20px;
+        margin-left: 18rem;
+        margin-top: -38rem;
+        display: none;
+    }
+    h4{
+        font-size: 30px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .card,.card2{
+        transform: scale(1.53);
+        transition: 0.8s;
+    }
+    #nxt{
+        margin-top: 180px;
+        margin-left: 100px;
+        position: absolute;
+        transition: 0.5s;
+    }
+    #show-btn{
+        margin-left: 30px;
+        margin-top: 80px;
+        margin-right: 80px;
+        position: static ;
+    }
+    #login{
+      margin-left: 10px;
+    }
+    #card3{
+        width: 500px;
+        height: 500px;
+        background: #e90a00d7;
+        margin-left: 15rem;
+        margin-top: -40rem;
+        border-radius: 30px;
+      
+        
+    }
+    .last-txt{
+        text-align: center;
+        font-size: 5rem;
+        color: #1523ff;
+        padding-top: 8rem;
+    }
+  .card3-col{
+      display: none;
+  }
+ .last-btn{
+     margin-left: 160px;
+     font-size: 4rem
+ }
+ input[type=checkbox]{
+     position: absolute;
+     left: 25px;
+     top: 220px;
+     height: 30px;
+     width: 30px;
+ }
+ b{
+     font-size: 25px;
+     margin-left: 50px;     
+ }
+    .custom{
+        width: 200px;
+        height: 50px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: -1000px;
+        transition: 0.4s;
+        margin-left: 94px;
+    }
+    .otp-box{
+        width: 50px;
+        height: 50px;
+        background: red;
+        border-radius: 10px;
+        color:white;
+        font-weight: bolder;
+        font-size: 50px;
+        text-align: center;
+        outline: none;
+        margin-left: 10px;
+    }
+    
+    .OTP-BOX{
+        width: 550px;
+        height: 100px;
+        background: blue;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: red;
+        font-size: 50px;
+        border-radius: 10px;
+        position: absolute;
+        top: 40px;
+        left: 200px;
+        margin-top: -1000px;
+        transition: 2s;
+        text-align: center;
+        
+    }
+  #close{
+      background: #baff55b8;
+      border-color: white;
+      border-width: 0;
+      color: black;
+      font-size: 45px;
+      font-weight: bold;
+      position: absolute;
+      border-radius: 60%;
+      top: 20px;
+      left: 620px;
+      outline: red;
+      margin-top: -1000px;
+      transition: 2s;
+  }
+ #submit{
+     position: absolute;
+     left: 150px;
+     top: 890px;
+     display: none;
+     transform: scale(1.53);
+ }
+ 
+
